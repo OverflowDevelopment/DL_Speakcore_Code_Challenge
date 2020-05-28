@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DL_Speakcore_Code_Challenge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speakcore_Logic", "Speakcore_Logic\Speakcore_Logic.csproj", "{55C4BE02-DC39-4220-93E8-237924241CD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speakcore_Data", "Speakcore_Data\Speakcore_Data.csproj", "{0EF772D9-9000-4FE3-BB22-B2DACA24C1C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{55C4BE02-DC39-4220-93E8-237924241CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55C4BE02-DC39-4220-93E8-237924241CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55C4BE02-DC39-4220-93E8-237924241CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF772D9-9000-4FE3-BB22-B2DACA24C1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF772D9-9000-4FE3-BB22-B2DACA24C1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF772D9-9000-4FE3-BB22-B2DACA24C1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF772D9-9000-4FE3-BB22-B2DACA24C1C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
