@@ -26,6 +26,32 @@ textarea {
     background-color: #aaaaaa;
 }
 
+.sc_light-blue {
+    background-color: #2988b5;
+}
+.sc_dark-blue {
+    background-color: #1b5875;
+}
+
+.sc_light-gray {
+    background-color: #dedede;
+}
+.sc_dark-gray {
+    background-color: #aaaaaa;
+}
+
+.sc_light-red {
+    background-color: #ffe8ea;
+}
+.sc_dark-red {
+    background-color: #a93a44;
+}
+
+.sc_text {
+    color: #555555;
+}
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
