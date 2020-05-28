@@ -8,7 +8,7 @@ namespace Speakcore_Logic.Services
     {
         public static bool IsValidInput(string input)
         {
-            return false;
+            return true;
         }
     }
 }
