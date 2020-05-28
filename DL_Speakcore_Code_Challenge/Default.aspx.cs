@@ -20,7 +20,16 @@ namespace DL_Speakcore_Code_Challenge
             string input = txtPassword.Text;
 
             //Validate item exists in DB
-            PasswordService.IsValidInput(input);
+            bool result = PasswordService.IsValidInput(input);
+
+            if (result)
+            {
+                //success - forward to Registration
+            }
+            else
+            { 
+                //show error
+            }
         }
     }
 }
