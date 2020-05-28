@@ -43,6 +43,11 @@ textarea {
     background-color: #a93a44;
 }
 
+.sc_row {
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
 .sc_text {
     color: #555555;
 }

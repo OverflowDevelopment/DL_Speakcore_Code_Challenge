@@ -6,7 +6,7 @@
         <h2>LOGIN</h2>
     </div>
 
-    <div class="row">
+    <div class="row sc_row">
         <div class="col-md-12">
             <p>
                 Please enter the case sensitive password from your official invitation.
@@ -21,7 +21,6 @@
                 <input id="txtLogin" type="button" value="Login" />
             </p>
         </div>
-        
     </div>
 
 </asp:Content>
