@@ -17,7 +17,7 @@
             <p>
                 <input id="txtPassword" type="text" />
             </p>
-            <p>
+            <p style="text-align:right;">
                 <input id="txtLogin" type="button" value="Login" />
             </p>
         </div>
