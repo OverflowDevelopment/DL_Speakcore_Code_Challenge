@@ -10,8 +10,21 @@ namespace DL_Speakcore_Code_Challenge
 {
     public partial class _Default : Page
     {
+        bool inputIsValid = false;
+
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                //page is just loading, do nothing
+            }
+            else
+            {
+                if (!inputIsValid)
+                { 
+                    //show error
+                }
+            }
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
@@ -20,11 +33,11 @@ namespace DL_Speakcore_Code_Challenge
             string input = txtPassword.Text;
 
             //Validate item exists in DB
-            bool result = PasswordService.IsValidInput(input);
+            inputIsValid = PasswordService.IsValidInput(input);
 
-            if (result)
+            if (inputIsValid)
             {
-                //success - forward to Registration
+                Response.Redirect("Registration");
             }
             else
             { 
