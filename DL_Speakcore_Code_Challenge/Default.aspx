@@ -15,10 +15,10 @@
                 <b>Password:</b>
             </p>
             <p>
-                <input id="txtPassword" type="text" />
+                <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
             </p>
             <p style="text-align:right;">
-                <input id="txtLogin" type="button" value="Login" />
+                <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
             </p>
         </div>
     </div>

@@ -11,7 +11,13 @@ namespace DL_Speakcore_Code_Challenge
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
 
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            //Get input from txt
+
+            //Validate item exists in DB
         }
     }
 }
