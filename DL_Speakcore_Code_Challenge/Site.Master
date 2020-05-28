@@ -16,7 +16,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
-<body class="main-background">
+<body class="sc_dark-gray sc_text">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
