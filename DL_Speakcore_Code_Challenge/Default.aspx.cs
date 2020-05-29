@@ -14,17 +14,7 @@ namespace DL_Speakcore_Code_Challenge
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                //page is just loading, do nothing
-            }
-            else
-            {
-                if (!inputIsValid)
-                { 
-                    //show error
-                }
-            }
+
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)

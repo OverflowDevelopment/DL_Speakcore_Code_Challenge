@@ -10,29 +10,39 @@ namespace Speakcore.Data
     {
         private string conn = "Server=localhost\\SQLEXPRESS;Database=Speakcore;Trusted_Connection=True;";
 
-        public DataHelper()
-        { 
-        
-        }
-
         public bool ValidatePassword(string input)
         {
+            DataTable table = new DataTable();
             using (SqlConnection sqlCon = new SqlConnection(conn))
+            using (SqlCommand cmd = new SqlCommand("usp_ValidatePassword", sqlCon))
+            using (SqlDataAdapter da = new SqlDataAdapter(cmd))
             {
-
-                SqlCommand cmd = new SqlCommand("usp_ValidatePassword", sqlCon);
-                cmd.Parameters.Add("@input", SqlDbType.VarChar).Value = input;
+                cmd.Parameters.AddWithValue("@input", input);
                 cmd.CommandType = CommandType.StoredProcedure;
-
-
-                sqlCon.Open();
-
-                cmd.ExecuteNonQuery();
-
-                sqlCon.Close();
+                da.Fill(table);
             }
 
-            return true;
+            if (table.Rows.Count > 0)
+                return table.Rows[0][0].ToString() == "1";
+
+            return false;
+        }
+
+        public void InsertUser(string firstName, string lastName, string state, string email)
+        {
+            DataTable table = new DataTable();
+            using (SqlConnection sqlCon = new SqlConnection(conn))
+            using (SqlCommand cmd = new SqlCommand("usp_InsertUser", sqlCon))
+            using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+            {
+                cmd.Parameters.AddWithValue("@FirstName", firstName);
+                cmd.Parameters.AddWithValue("@LastName", lastName);
+                cmd.Parameters.AddWithValue("@State", state);
+                cmd.Parameters.AddWithValue("@Email", email);
+
+                cmd.CommandType = CommandType.StoredProcedure;
+                da.Fill(table);
+            }
         }
     }
 }

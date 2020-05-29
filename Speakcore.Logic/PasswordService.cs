@@ -9,11 +9,9 @@ namespace Speakcore.Logic.Services
     {
         public static bool IsValidInput(string input)
         {
-            //Pass off INPUT to some sort of stored procedure
-            //  SP will just return true/false if the record is found in the table
             DataHelper d = new DataHelper();
 
-            return true;
+            return d.ValidatePassword(input);
         }
     }
 }
