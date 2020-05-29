@@ -1,0 +1,2 @@
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\obj\Debug\Speakcore.Logic.csprojAssemblyReference.cache
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\obj\Debug\Speakcore.Logic.csproj.CoreCompileInputs.cache
