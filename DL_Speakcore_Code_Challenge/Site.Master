@@ -47,7 +47,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - DLeBlanc Speakercore Challenge</p>
+                <p>&copy; <%: DateTime.Now.Year %> - DLeBlanc Speakcore Challenge</p>
             </footer>
         </div>
 
