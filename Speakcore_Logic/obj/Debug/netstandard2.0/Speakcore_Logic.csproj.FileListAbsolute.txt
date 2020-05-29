@@ -1,9 +1,0 @@
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore_Logic\bin\Debug\netstandard2.0\Speakcore_Logic.deps.json
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore_Logic\bin\Debug\netstandard2.0\Speakcore_Logic.dll
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore_Logic\bin\Debug\netstandard2.0\Speakcore_Logic.pdb
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore_Logic\obj\Debug\netstandard2.0\Speakcore_Logic.csprojAssemblyReference.cache
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore_Logic\obj\Debug\netstandard2.0\Speakcore_Logic.AssemblyInfoInputs.cache
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore_Logic\obj\Debug\netstandard2.0\Speakcore_Logic.AssemblyInfo.cs
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore_Logic\obj\Debug\netstandard2.0\Speakcore_Logic.csproj.CoreCompileInputs.cache
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore_Logic\obj\Debug\netstandard2.0\Speakcore_Logic.dll
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore_Logic\obj\Debug\netstandard2.0\Speakcore_Logic.pdb
