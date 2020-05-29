@@ -1,4 +1,4 @@
-﻿using Speakcore_Logic.Services;
+﻿using Speakcore.Logic.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;

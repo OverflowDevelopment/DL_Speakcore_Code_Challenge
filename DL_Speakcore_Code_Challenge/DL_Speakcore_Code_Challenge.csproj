@@ -53,6 +53,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.1\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -209,9 +212,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Speakcore_Logic\Speakcore_Logic.csproj">
-      <Project>{55C4BE02-DC39-4220-93E8-237924241CD9}</Project>
-      <Name>Speakcore_Logic</Name>
+    <ProjectReference Include="..\Speakcore.Logic\Speakcore.Logic.csproj">
+      <Project>{57aa6764-61bf-425e-b62d-3dca8e113f62}</Project>
+      <Name>Speakcore.Logic</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
