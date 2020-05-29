@@ -30,10 +30,8 @@ namespace Speakcore.Data
 
         public void InsertUser(string firstName, string lastName, string state, string email)
         {
-            DataTable table = new DataTable();
             using (SqlConnection sqlCon = new SqlConnection(conn))
             using (SqlCommand cmd = new SqlCommand("usp_InsertUser", sqlCon))
-            using (SqlDataAdapter da = new SqlDataAdapter(cmd))
             {
                 cmd.Parameters.AddWithValue("@FirstName", firstName);
                 cmd.Parameters.AddWithValue("@LastName", lastName);
@@ -41,7 +39,9 @@ namespace Speakcore.Data
                 cmd.Parameters.AddWithValue("@Email", email);
 
                 cmd.CommandType = CommandType.StoredProcedure;
-                da.Fill(table);
+                sqlCon.Open();
+                cmd.ExecuteNonQuery();
+                sqlCon.Close();
             }
         }
     }
