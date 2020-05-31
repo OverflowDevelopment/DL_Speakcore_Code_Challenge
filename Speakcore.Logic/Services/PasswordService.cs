@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Speakcore.Data;
+﻿using Speakcore.Data;
 
 namespace Speakcore.Logic.Services
 {

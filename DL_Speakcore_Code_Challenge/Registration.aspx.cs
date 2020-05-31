@@ -22,14 +22,9 @@ namespace DL_Speakcore_Code_Challenge
                 bool newsletter = chkNewsletter.Checked;
 
                 UserService.InsertUser(firstName, lastName, state, email, newsletter);
-                SendMail();
+                EmailService.SendConfirmationEmail(email, $"{firstName} {lastName}");
                 Response.Redirect("Complete");
             }
-        }
-
-        private void SendMail()
-        {
-            EmailService.SendConfirmationEmail(txtEmail.Text.Trim(), txtFirstName.Text.Trim());
         }
     }
 }

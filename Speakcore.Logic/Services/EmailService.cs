@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Speakcore.Logic.Services
 {
@@ -15,6 +11,7 @@ namespace Speakcore.Logic.Services
             if (!ValidEmail(recipientEmail))
                 return;
 
+            //TODO: move credentials to config
             SmtpClient smtpClient = new SmtpClient()
             {
                 Host = "smtp.gmail.com",
