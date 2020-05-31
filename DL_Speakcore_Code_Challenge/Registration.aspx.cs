@@ -19,7 +19,7 @@ namespace DL_Speakcore_Code_Challenge
         {
             string firstName = txtFirstName.Text;
             string lastName = txtLastName.Text;
-            string state = cmbState.Text;
+            string state = cmbState.SelectedValue;
             string email = txtEmail.Text;
             bool newsletter = chkNewsletter.Checked;
 

@@ -35,7 +35,7 @@ namespace Speakcore.Data
             {
                 cmd.Parameters.AddWithValue("@FirstName", firstName);
                 cmd.Parameters.AddWithValue("@LastName", lastName);
-                cmd.Parameters.AddWithValue("@State", state);
+                cmd.Parameters.AddWithValue("@StateId", state);
                 cmd.Parameters.AddWithValue("@Email", email);
 
                 cmd.CommandType = CommandType.StoredProcedure;

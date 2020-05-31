@@ -9,28 +9,36 @@
     <div class="row sc_row">
         <div class="col-md-12">
             <p>
-                <b>First Name: *</b>
+                <b>
+                    <asp:Label ID="Label1" runat="server" Text="First Name: *"></asp:Label>
+                </b>
             </p>
             <p>
-                <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="First Name is required" ControlToValidate="txtFirstName"></asp:RequiredFieldValidator>
-            </p>
-
-
-            
-            <p>
-                <b>Last Name: *</b>
-            </p>
-            <p>
-                <asp:TextBox ID="txtLastName" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Last Name is required" ControlToValidate="txtLastName"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="First Name is required" ControlToValidate="txtFirstName" CssClass="sc_dark-red"></asp:RequiredFieldValidator>
             </p>
 
 
             
             <p>
-                <b>State: *</b>
+                <b>
+                    <asp:Label ID="Label2" runat="server" Text="Last Name: *"></asp:Label>
+                </b>
             </p>
             <p>
-                <asp:DropDownList ID="cmbState" runat="server"></asp:DropDownList><asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="State is required" ControlToValidate="cmbState"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="txtLastName" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Last Name is required" ControlToValidate="txtLastName" CssClass="sc_dark-red"></asp:RequiredFieldValidator>
+            </p>
+
+
+            
+            <p>
+                <b>
+                    <asp:Label ID="Label3" runat="server" Text="State: *"></asp:Label>
+                </b>
+            </p>
+            <p>
+                <asp:DropDownList ID="cmbState" runat="server" DataSourceID="SqlDataSource1" DataTextField="StateCode" DataValueField="StateID"></asp:DropDownList>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SpeakcoreConnectionString %>" SelectCommand="SELECT [StateID], [StateCode] FROM [State]"></asp:SqlDataSource>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="State is required" ControlToValidate="cmbState"></asp:RequiredFieldValidator>
             </p>
             
 
@@ -41,19 +49,23 @@
             </p>
 
             <p>
-                <b>Email: *</b>
+                <b>
+                    <asp:Label ID="Label4" runat="server" Text="Email: *"></asp:Label>
+                </b>
             </p>
             <p>
-                <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Email is required" ControlToValidate="txtEmail"></asp:RequiredFieldValidator><asp:CompareValidator ID="CompareValidator1" ControlToCompare="txtEmail" ControlToValidate="txtConfirmEmail" runat="server" ErrorMessage="Emails must match"></asp:CompareValidator>
+                <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Email is required" ControlToValidate="txtEmail" CssClass="sc_dark-red"></asp:RequiredFieldValidator><asp:CompareValidator ID="CompareValidator1" ControlToCompare="txtEmail" ControlToValidate="txtConfirmEmail" runat="server" ErrorMessage="Emails must match" CssClass="sc_dark-red"></asp:CompareValidator>
             </p>
 
 
             
             <p>
-                <b>Confirm Email: *</b>
+                <b>
+                    <asp:Label ID="Label5" runat="server" Text="Confirm Email: *"></asp:Label>
+                </b>
             </p>
             <p>
-                <asp:TextBox ID="txtConfirmEmail" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Email is required" ControlToValidate="txtConfirmEmail"></asp:RequiredFieldValidator><asp:CompareValidator ID="CompareValidator2" ControlToCompare="txtConfirmEmail" ControlToValidate="txtEmail" runat="server" ErrorMessage="Emails must match"></asp:CompareValidator>
+                <asp:TextBox ID="txtConfirmEmail" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Email is required" ControlToValidate="txtConfirmEmail" CssClass="sc_dark-red"></asp:RequiredFieldValidator><asp:CompareValidator ID="CompareValidator2" ControlToCompare="txtConfirmEmail" ControlToValidate="txtEmail" runat="server" ErrorMessage="Emails must match" CssClass="sc_dark-red"></asp:CompareValidator>
             </p>
 
             
