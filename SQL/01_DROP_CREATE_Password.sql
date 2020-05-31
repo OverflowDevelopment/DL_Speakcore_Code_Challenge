@@ -19,3 +19,4 @@ CREATE TABLE [dbo].[Password](
 ) ON [PRIMARY]
 GO
 
+INSERT INTO [dbo].[Password] VALUES ('Speakcore')
