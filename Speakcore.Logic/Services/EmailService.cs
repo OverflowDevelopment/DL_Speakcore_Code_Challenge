@@ -12,6 +12,8 @@ namespace Speakcore.Logic.Services
     {
         public static void SendConfirmationEmail(string recipientEmail, string name)
         {
+            if (!ValidEmail(recipientEmail))
+                return;
 
             SmtpClient smtpClient = new SmtpClient()
             {
@@ -49,6 +51,19 @@ namespace Speakcore.Logic.Services
             catch
             {
                 //log email failure
+            }
+        }
+
+        private static bool ValidEmail(string recipientEmail)
+        {
+            try
+            {
+                new MailAddress(recipientEmail);
+                return true;
+            }
+            catch (FormatException fe)
+            {
+                return false;
             }
         }
     }
