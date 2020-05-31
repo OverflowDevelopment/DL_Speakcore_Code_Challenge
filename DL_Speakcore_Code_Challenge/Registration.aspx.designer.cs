@@ -15,13 +15,13 @@ namespace DL_Speakcore_Code_Challenge
     {
 
         /// <summary>
-        /// Label1 control.
+        /// lblFirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblFirstName;
 
         /// <summary>
         /// txtFirstName control.
@@ -33,22 +33,22 @@ namespace DL_Speakcore_Code_Challenge
         protected global::System.Web.UI.WebControls.TextBox txtFirstName;
 
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// rfvFirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFirstName;
 
         /// <summary>
-        /// Label2 control.
+        /// lblLastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblLastName;
 
         /// <summary>
         /// txtLastName control.
@@ -60,22 +60,22 @@ namespace DL_Speakcore_Code_Challenge
         protected global::System.Web.UI.WebControls.TextBox txtLastName;
 
         /// <summary>
-        /// RequiredFieldValidator2 control.
+        /// rfvLastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvLastName;
 
         /// <summary>
-        /// Label3 control.
+        /// lblState control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label lblState;
 
         /// <summary>
         /// cmbState control.
@@ -96,22 +96,22 @@ namespace DL_Speakcore_Code_Challenge
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
 
         /// <summary>
-        /// RequiredFieldValidator3 control.
+        /// rfvState control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvState;
 
         /// <summary>
-        /// Label4 control.
+        /// lblEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.Label lblEmail;
 
         /// <summary>
         /// txtEmail control.
@@ -123,31 +123,31 @@ namespace DL_Speakcore_Code_Challenge
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
 
         /// <summary>
-        /// RequiredFieldValidator4 control.
+        /// cvEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+        protected global::System.Web.UI.WebControls.CompareValidator cvEmail;
 
         /// <summary>
-        /// CompareValidator1 control.
+        /// rfvEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEmail;
 
         /// <summary>
-        /// Label5 control.
+        /// lblConfirmEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.Label lblConfirmEmail;
 
         /// <summary>
         /// txtConfirmEmail control.
@@ -159,22 +159,22 @@ namespace DL_Speakcore_Code_Challenge
         protected global::System.Web.UI.WebControls.TextBox txtConfirmEmail;
 
         /// <summary>
-        /// RequiredFieldValidator5 control.
+        /// cvCompareEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
+        protected global::System.Web.UI.WebControls.CompareValidator cvCompareEmail;
 
         /// <summary>
-        /// CompareValidator2 control.
+        /// rfvConfirmEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvConfirmEmail;
 
         /// <summary>
         /// chkNewsletter control.

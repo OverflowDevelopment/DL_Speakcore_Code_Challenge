@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -17,15 +19,23 @@ namespace DL_Speakcore_Code_Challenge
 
         protected void btnContinue_Click(object sender, EventArgs e)
         {
-            string firstName = txtFirstName.Text;
-            string lastName = txtLastName.Text;
-            string state = cmbState.SelectedValue;
-            string email = txtEmail.Text;
-            bool newsletter = chkNewsletter.Checked;
+            if (Page.IsValid)
+            {
+                string firstName = txtFirstName.Text.Trim();
+                string lastName = txtLastName.Text.Trim();
+                string state = cmbState.SelectedValue;
+                string email = txtEmail.Text.Trim();
+                bool newsletter = chkNewsletter.Checked;
 
-            UserService.InsertUser(firstName, lastName, state, email, newsletter);
+                UserService.InsertUser(firstName, lastName, state, email, newsletter);
+                SendMail();
+                Response.Redirect("Complete");
+            }
+        }
 
-            Response.Redirect("Complete");
+        private void SendMail()
+        {
+            EmailService.SendConfirmationEmail(txtEmail.Text.Trim(), txtFirstName.Text.Trim());
         }
     }
 }
