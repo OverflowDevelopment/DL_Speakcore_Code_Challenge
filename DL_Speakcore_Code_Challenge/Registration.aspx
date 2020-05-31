@@ -3,6 +3,10 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
 <script type="text/javascript">
+    $(document).ready(function () {
+        BindEvents();
+    });
+
     function ValidatorUpdateDisplay(val)
     {
         if (typeof (val.display) == "string")
@@ -20,6 +24,8 @@
 
         val.style.visibility = val.isvalid ? "hidden" : "visible";
 
+        //TODO:
+        //* Update label classes
         if (val.isvalid)
         {
             $("#" + val.controltovalidate).removeClass("sc_light-red");
@@ -29,7 +35,13 @@
             $("#" + val.controltovalidate).addClass("sc_light-red");
         }
     }
+
+    function BindEvents() {
+        //TODO:
+        //* Assign Keydown / Change event handlers for input controls to have real-time
+    }
 </script>
+
     <div class="jumbotron">
         <h2>CONTACT INFORMATION</h2>
     </div>
@@ -75,15 +87,16 @@
             </p>
             <p>
                 <asp:DropDownList ID="cmbState" runat="server" DataSourceID="SqlDataSource1" DataTextField="StateCode" DataValueField="StateID" AppendDataBoundItems="True">
-                    <asp:ListItem>Select State</asp:ListItem>
+                    <asp:ListItem Value="-1">Select State</asp:ListItem>
                 </asp:DropDownList>
                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SpeakcoreConnectionString %>" SelectCommand="SELECT [StateID], [StateCode] FROM [State]"></asp:SqlDataSource>
                 
                 <asp:RequiredFieldValidator 
                     ID="rfvState" 
                     runat="server"
-                    ControlToValidate="cmbState">
-                </asp:RequiredFieldValidator>
+                    ControlToValidate="cmbState" 
+                    CssClass="sc_dark-red" 
+                    InitialValue ="-1"></asp:RequiredFieldValidator>
             </p>
             
 
