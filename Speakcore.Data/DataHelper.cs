@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace Speakcore.Data
 {
     public class DataHelper
     {
         private string conn = "Server=localhost\\SQLEXPRESS;Database=Speakcore;Trusted_Connection=True;";
+
+        //Doesn't work because Web.config is in different project..
+        //private string connFromWebConfig = ConfigurationManager.AppSettings["SpeakcoreConnectionString"];
 
         public bool ValidatePassword(string input)
         {
