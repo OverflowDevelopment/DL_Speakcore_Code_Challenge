@@ -1,2 +1,9 @@
 C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\obj\Debug\Speakcore.Logic.csprojAssemblyReference.cache
 C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\obj\Debug\Speakcore.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\bin\Debug\Speakcore.Logic.dll
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\bin\Debug\Speakcore.Logic.pdb
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\bin\Debug\Speakcore.Data.dll
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\bin\Debug\Speakcore.Data.pdb
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\obj\Debug\Speakcore.Logic.csproj.CopyComplete
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\obj\Debug\Speakcore.Logic.dll
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Logic\obj\Debug\Speakcore.Logic.pdb

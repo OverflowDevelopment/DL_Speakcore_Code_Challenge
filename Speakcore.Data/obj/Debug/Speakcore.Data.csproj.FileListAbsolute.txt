@@ -3,3 +3,4 @@ C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Data\bin\Debug\Speakco
 C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Data\obj\Debug\Speakcore.Data.csproj.CoreCompileInputs.cache
 C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Data\obj\Debug\Speakcore.Data.dll
 C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Data\obj\Debug\Speakcore.Data.pdb
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\Speakcore.Data\obj\Debug\Speakcore.Data.csprojAssemblyReference.cache

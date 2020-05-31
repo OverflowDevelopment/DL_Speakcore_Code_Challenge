@@ -146,5 +146,9 @@ C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\obj\
 C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\obj\Debug\DL_Speakcore_Code_Challenge.csproj.CopyComplete
 C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\obj\Debug\DL_Speakcore_Code_Challenge.dll
 C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\obj\Debug\DL_Speakcore_Code_Challenge.pdb
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\bin\Speakcore_Logic.dll
-C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\bin\Speakcore_Logic.pdb
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\bin\Speakcore.Logic.dll
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\bin\System.Data.SqlClient.dll
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\bin\Speakcore.Data.dll
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\bin\Speakcore.Logic.pdb
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\bin\System.Data.SqlClient.xml
+C:\Users\Doug\Repos\DL_Speakcore_Code_Challenge\DL_Speakcore_Code_Challenge\bin\Speakcore.Data.pdb
